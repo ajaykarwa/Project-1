@@ -1,0 +1,102 @@
+/*Defaults*/
+*{
+	box-sizing: border-box;
+	font-size: 16px;
+	font-family: 'Archivo Narrow', sans-serif;
+	color: #464640;
+	padding:0;
+	margin:0;
+}
+
+h1{
+	font-size:60px;
+}
+h2{
+	font-size:40px;
+}
+h3{
+	font-size:30px;
+}
+
+header{
+    background: #2e6171;
+    font-size: 48px;
+    color: white;
+}
+
+/*Navigation*/
+nav ul {
+	list-style: none;
+	text-align: right;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+
+nav li {
+    display: inline-block;
+}
+nav a {
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: #ddf2eb;
+}
+nav a:hover {
+    background-color: #606d5d;
+}
+
+/*left side image and link*/
+.leftheadline {
+    border-radius: 0px;
+    width:50%;
+    float: left;
+    text-align: center;
+    position: relative;
+    height: 400px;
+}
+.leftheadline h1 a{
+    display: block;
+    position: absolute;
+    width: 100%;
+    margin-top: 25%;
+    color: #606d5d;
+    text-shadow: 2px 2px 5px #ddf2eb;
+    font-size: 125px;
+    text-decoration: none;
+    line-height: 90%;
+}
+.leftheadline h1 a:hover{
+    color: #0e1116;
+}
+.leftheadline img{
+    width:100%;
+}
+/*Right side image and link*/
+.rightheadline {
+    border-radius: 0px;
+    width:50%;
+    float: left;
+    text-align: center;
+    position: relative;
+    height: 400px;
+}
+.rightheadline h1 a{
+    display: block;
+    position: absolute;
+    width: 100%;
+    margin-top: 25%;
+    color: #606d5d;
+    text-shadow: 2px 2px 5px #ddf2eb;
+    font-size: 125px;
+    text-decoration: none;
+    line-height: 90%;
+}
+.rightheadline h1 a:hover{
+    color: #0e1116;
+}
+.rightheadline img{
+    width:100%;
+}
+

@@ -1,0 +1,322 @@
+/*Defaults*/
+
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    /*font-family: 'Archivo Narrow', sans-serif;*/
+    font-family: 'Muli', sans-serif;
+    color: #464640;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+header {
+    background: #2e6171;
+    font-size: 48px;
+    color: white;
+    padding-left: 10px;
+}
+
+/*Navigation*/
+
+nav ul {
+    list-style: none;
+    text-align: right;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: #ddf2eb;
+}
+
+nav a:hover {
+    background-color: #606d5d;
+}
+
+nav ul li ul{
+    display: none;
+}
+
+/*left side image and link*/
+
+.leftheadline {
+    border-radius: 0px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+.leftheadline h1 a {
+    display: block;
+    position: absolute;
+    width: 100%;
+    margin-top: 25%;
+    margin-bottom: 30%;
+    color: white;
+    font-size: 125px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #ddf2eb;
+}
+
+.leftheadline h1 a:hover {
+    color: #606d5d;
+}
+
+.leftheadline img {
+    width: 100%;
+}
+
+/*Right side image and link*/
+
+.rightheadline {
+    border-radius: 0px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+.rightheadline h1 a {
+    display: block;
+    position: absolute;
+    width: 100%;
+    margin-top: 25%;
+    margin-bottom: 30%;
+    color: white;
+    font-size: 125px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #ddf2eb;
+}
+
+.rightheadline h1 a:hover {
+    color: #606d5d;
+}
+
+.rightheadline img {
+    width: 100%;
+}
+
+.rightheadline2 {
+    border-radius: 0px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+.rightheadline2 h1 a {
+    display: block;
+    position: absolute;
+    width: 100%;
+    padding: 150px;
+    color: #606d5d;
+    font-size: 100px;
+    text-decoration: none;
+    line-height: 90%;
+}
+
+.rightheadline2 h1 a:hover {
+    color: #2e6171;
+}
+
+/*Single Image Formatting*/
+
+.divsingleimage h1 {
+    text-align: center;
+    border: none;
+    color: #606d5d;
+}
+
+.singleimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+
+
+/*Life story text formatting*/
+
+.lifestorytext p {
+    color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*Travel pictures formatting
+.thumbnails {
+    text-align: center
+}
+
+.travelpics {
+    border: 1px solid #606d5d;
+    border-radius: 5px;
+    width:25%;
+    margin: 10px;
+    display:inline-block;
+}
+*/
+
+/*Travel Images Formatting with overlay*/
+
+/* Container needed to position the overlay. Adjust the width as needed */
+
+.gallery {
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 25%;
+    max-width: 33.3;
+    display: inline-block;
+}
+
+/*Make the image to responsive*/
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/*The overlay effect - lays on top of the container and over the image*/
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    /*Black see-through*/
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+/*When you mouse over the container, fade in the overlay title*/
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+/*Contact Form formatting with full width background image*/
+
+body,html {
+    height: 100%;
+}
+
+/*body,background {
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+/* Add styles to the form container */
+
+.formcontainer {
+    position: absolute;
+    left: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+    border-color: aqua;
+    border: 5px;
+}
+
+/* Full-width input fields */
+
+input[type=text],
+input[type=email],
+input[type=tel] {
+    width: 100%;
+    padding: 15px;
+    margin: 0px 0 20px 0;
+    border: 1px;
+    background: #f1f1f1;
+}
+
+/*input[type=text], input[type=email], input[type=tel]:focus{
+    background-color: #ddd;
+    outline: none;
+}*/
+
+/* Set a style for the submit button */
+
+.button {
+    background-color: #606d5d;
+    color: #ddf2eb;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: .85;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+/*Job Skills formatted into 3 sections with a rounded image, header, and bullets*/
+/*format jobskills containers*/
+.jobskills {
+    border: 1px dotted #ddf2eb;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+/*format each jobskill image*/
+.jobskills img{
+    float: left;
+    margin: 10px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+/* Clear floats after jobskill containers */
+.jobskills::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.jobskills h2,li{
+    text-align: left;
+    color: #606d5d;
+}
+
+.jobskills h2{
+    font-size: 28px;
+}
