@@ -55,25 +55,29 @@ nav a:hover {
     text-align: center;
     position: relative;
     height: 100vh;
-    overflow: inherit
+    overflow: inherit;
+    background: linear-gradient(#2e6171,#ddf2eb);
 }
 .leftheadline h1 a{
     display: block;
     position: absolute;
     width: 100%;
     margin-top: 25%;
-    color: #0e1116;
-    text-shadow: 2px 2px 5px #ddf2eb;
-    font-size: 125px;
+    color: white;
+    /*text-shadow: 2px 2px 5px #ddf2eb;*/
+    font-size: 100px;
     text-decoration: none;
     line-height: 90%;
+    padding: 50px;
+    z-index: 2;
 }
 .leftheadline h1 a:hover{
-    color: #606d5d;
+    color: #0e1116;
 }
 .leftheadline img{
     height: 100%;
-    max-width: 100%
+    max-width: 100%;
+    opacity: .5
 }
 /*Right side image and link*/
 .rightheadline {
@@ -83,23 +87,27 @@ nav a:hover {
     text-align: center;
     position: relative;
     height: 100vh;
-    overflow: auto
+    overflow: auto;
+    background: linear-gradient(#2e6171,#ddf2eb);
 }
 .rightheadline h1 a{
     display: block;
     position: absolute;
     width: 100%;
     margin-top: 25%;
-    color: #0e1116;
-    text-shadow: 2px 2px 5px #ddf2eb;
-    font-size: 125px;
+    color: white;
+    /*text-shadow: 2px 2px 5px #ddf2eb;*/
+    font-size: 100px;
     text-decoration: none;
     line-height: 90%;
+    padding: 50px;
+    z-index: 2;
 }
 .rightheadline h1 a:hover{
-    color: #606d5d;
+    color: #0e1116;
 }
 .rightheadline img{
     height: 100%;
-    max-width: 100%
+    max-width: 100%;
+    opacity: .5;
 }
