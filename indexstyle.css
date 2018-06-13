@@ -67,6 +67,8 @@ nav ul li ul{
     float: left;
     text-align: center;
     position: relative;
+    height: 100vh;
+    background: #2e6171;
 }
 
 .leftheadline h1 a {
@@ -97,6 +99,8 @@ nav ul li ul{
     float: left;
     text-align: center;
     position: relative;
+    height: 100vh;
+    background: #2e6171;
 }
 
 .rightheadline h1 a {
@@ -126,6 +130,8 @@ nav ul li ul{
     float: left;
     text-align: center;
     position: relative;
+    height: 100vh;
+    background: #2e6171;
 }
 
 .rightheadline2 h1 a {
@@ -133,14 +139,15 @@ nav ul li ul{
     position: absolute;
     width: 100%;
     padding: 150px;
-    color: #606d5d;
+    color: white;
     font-size: 100px;
     text-decoration: none;
     line-height: 90%;
 }
 
 .rightheadline2 h1 a:hover {
-    color: #2e6171;
+    color: #0e1116
+;
 }
 
 /*Single Image Centered Format*/
@@ -161,13 +168,16 @@ nav ul li ul{
 
 
 /*Life story text formatting*/
-
+.lifestorytext {
+    
+}
 .lifestorytext p {
     color: black;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    background: white;
 }
 
 /*Travel pictures formatting
@@ -305,6 +315,7 @@ input[type=tel]:focus{
     border-radius: 5px;
     padding: 5px;
     margin: 5px;
+    background: white;
 }
 /*format each jobskill image*/
 .jobskills img{
